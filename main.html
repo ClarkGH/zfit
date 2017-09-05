@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
-  <title>Places Api, son</title>
+  <script src="./main.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=keyhere&libraries=places&callback=initAutocomplete" async defer"></script>
+  <title>Places Api</title>
 </head>
 <body>
-
+<form id="places_search">
+  <input type="text" id="placesAutocomplete">
+  <input type="submit">
+</form>
 </body>
 </html>
